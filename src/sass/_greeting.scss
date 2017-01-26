@@ -1,0 +1,29 @@
+.greeting {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.greeting__title {
+  display: none;
+
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 800;
+  text-align: center;
+
+  margin-bottom: 15px;
+}
+
+.greeting__desc {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+
+  margin-bottom: 20px;
+}
+
+.greeting__search {
+  flex-grow: 1;
+}

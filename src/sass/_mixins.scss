@@ -1,15 +1,11 @@
 .container {
-  width: 280px;
-  max-width: 940px;
+  width: 300px;
+  max-width: 1170px;
   margin: 0 auto;
 
-  @media (min-width: 700px) {
-    width: 620px;
-  }
-
-  @media (min-width: 1200px) {
-    width: 980px;
-  }
+//  @media (min-width: 1200px) {
+//    width: 1030px;
+//  }
 }
 
 /* Скрытие элемента, доступное для читалок */

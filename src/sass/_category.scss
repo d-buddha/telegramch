@@ -1,0 +1,135 @@
+.category {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.category__title {
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 800;
+
+  margin-bottom: 0;
+}
+
+.category__sections {
+  list-style-type: none;
+  padding: 0;
+
+  margin-bottom: 45px;
+}
+
+.category__section {
+  display: inline;
+  margin-right: 20px;
+}
+
+.category-item {
+  margin-bottom: 50px;
+}
+
+.category-item:last-child {
+  margin-bottom: 0;
+}
+
+
+.category__second-line {
+  display: none;
+}
+
+.category-item__head {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.category-item__logo {
+  margin-right: 25px;
+  width: 50px;
+  height: 50px;
+}
+
+.category-item__title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 800;
+
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.category-item__members {
+  flex-shrink: 0;
+
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+
+  margin: 0;
+  padding: 0;
+}
+
+.category-item__desc {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.category-item__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.category-item__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.category-item__rating {
+  width: 77px;
+  height: 15px;
+
+  margin-top: 7px;
+  margin-right: 20px;
+}
+
+.category-item__like {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(../img/thumbs-o-up.svg);
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  margin-right: 15px;
+}
+
+.category-item__dislike {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(../img/thumbs-o-down.svg);
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  margin-right: 15px;
+}
+
+.category-item__open {
+  position: relative;
+  display: block;
+  border: 2px solid #9ad2ef;
+  padding-right: 35px;
+
+  background: url(../img/angle-up.svg);
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: 75px 7px;
+}

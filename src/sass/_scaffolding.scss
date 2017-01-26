@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic');
+
 body {
-  font-size: 18px;
-  line-height: 27px;
-  font-family: "Open Sans", "Arial", sans-serif;
-  color: #283645;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "PT Sans", sans-serif;
+  color: #616161;
   font-style: normal;
+  font-weight: 400;
+
+  margin: 0;
+  padding: 0;
 
   background-color: #fff;
 }
@@ -11,4 +17,14 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.btn {
+  cursor: pointer;
+  color: #616161;
+  padding: 5px  15px;
+  border-image: none;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
 }

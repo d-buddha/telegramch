@@ -1,0 +1,19 @@
+.main-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 300px;
+  max-width: 1170px;
+  margin: 0 auto;
+
+  border-top: 1px solid #b5b5b5;
+
+//  @media (min-width: 1200px) {
+//    width: 1170px;
+//  }
+}
+
+.main-footer__info {
+  margin-bottom: 35px;
+}
