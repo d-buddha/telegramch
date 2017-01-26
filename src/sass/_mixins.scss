@@ -1,0 +1,28 @@
+.container {
+  width: 280px;
+  max-width: 940px;
+  margin: 0 auto;
+
+  @media (min-width: 700px) {
+    width: 620px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 980px;
+  }
+}
+
+/* Скрытие элемента, доступное для читалок */
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
