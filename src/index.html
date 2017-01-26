@@ -1,14 +1,202 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<title>TelegramCh</title>
-	<link rel="stylesheet" href="css/normalize.min.css">
-	<link rel="stylesheet" href="css/main.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TelegramCh — лучшие каналы Telegram</title>
+  <meta name="description" content="TelegramCh — сервис для поиска лучших каналов Телеграм" />
+  <meta name="keywords" content="телеграм, каналы, telegram, channels, поиск" />
+  <meta name="author" content="Nikolay Puzyrev, Evgenij Krotov" />
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.min.css">
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 </head>
 <body>
-  <h1>Hello!</h1>
+  <header class="main-nav">
+    <div class="container">
+      <img src="img/logo.png" alt="TelegramCh" class="main-nav__logo" width="152px" height="33px">
+      <ul class="main-nav__links">
+        <li class="main-nav__link username">UserName</li>
+        <li class="main-nav__link">Продвижение канала</li>
+        <li class="main-nav__link">Разработка чат-ботов</li>
+        <li class="main-nav__link btn">Добавить канал</li>
+      </ul>
+    </div>
+  </header>
 
+
+  <main>
+    <div class="container">
+      <section class="main-title">
+        <h1>TelegramCh — каталог лучших каналов Telegram</h1>
+        <p class="main-title__desc">Попробуйти найти канал на интересующую Вас тему через поиск или посмотрите ТОП каналов по категориям ниже</p>
+        <input type="search" class="search-form">
+      </section>
+
+      <section class="recommended">
+        <h2 class="recommended__title">Рекомендованные Вам каналы*</h2>
+        <button class="recommended__update btn">Рекомендовать</button>
+        <section class="rec-item">
+          <div class="rec-item__head">
+            <img src="img/antirabstvo.png" alt="" class="rec-item__logo" width="50px" height="50px">
+            <h3 class="rec-item__title">Antirabstvo</h3>
+            <p class="rec-item__members">9266 / +63</p>
+          </div>
+          <div class="rec-item__body">
+            <p class="rec-item__desc">Вакансии, полезные статьи и анонсы для студентов Антирабства.</p>
+          </div>
+          <div class="rec-item__footer">
+            <button class="rec-item__btn-like">Нравится</button>
+            <button class="rec-item__btn-dislike">Не очень</button>
+            <button class="rec-item__btn-open">^</button>
+          </div>
+        </section>
+        <section class="rec-item">
+           <div class="rec-item__head">
+            <img src="img/antirabstvo.png" alt="" class="rec-item__logo" width="50px" height="50px">
+            <h3 class="rec-item__title">Antirabstvo</h3>
+            <p class="rec-item__members">9266 / +63</p>
+          </div>
+          <div class="rec-item__body">
+            <p class="rec-item__desc">Вакансии, полезные статьи и анонсы для студентов Антирабства.</p>
+          </div>
+          <div class="rec-item__footer">
+            <button class="rec-item__btn-like">Нравится</button>
+            <button class="rec-item__btn-dislike">Не очень</button>
+            <button class="rec-item__btn-open">^</button>
+          </div>
+        </section>
+        <section class="rec-item">
+           <div class="rec-item__head">
+            <img src="img/antirabstvo.png" alt="" class="rec-item__logo" width="50px" height="50px">
+            <h3 class="rec-item__title">Antirabstvo</h3>
+            <p class="rec-item__members">9266 / +63</p>
+          </div>
+          <div class="rec-item__body">
+            <p class="rec-item__desc">Вакансии, полезные статьи и анонсы для студентов Антирабства.</p>
+          </div>
+          <div class="rec-item__footer">
+            <button class="rec-item__btn-like">Нравится</button>
+            <button class="rec-item__btn-dislike">Не очень</button>
+            <button class="rec-item__btn-open">^</button>
+          </div>
+        </section>
+        <p class="recommended__desc">*Войдите или зарегистрируйтесь для получения более точных персональных рекомендаций</p>
+      </section>
+
+      <section class="category">
+        <h2 class="category__title">Рекомендованные Вам каналы*</h2>
+        <ul class="category__sections">
+          <li class="category__section">Основные</li>
+          <li class="category__section">Наибольший рост</li>
+          <li class="category__section">Новые</li>
+        </ul>
+        <div class="category__first-line">
+          <section class="category-item">
+            <div class="category-item__head">
+              <img src="img/analytics.png" alt="" class="category-item__logo" width="50px" height="50px">
+              <h3 class="category-item__title">Интернет-аналитика</h3>
+              <p class="category-item__members">14732 / +162</p>
+            </div>
+            <div class="category-item__body">
+              <p class="category-item__desc">В канале собраны ссылки на первоисточники данных и материалы российский и зарубежных</p>
+            </div>
+            <div class="category-item__footer">
+              <img src="img/stars.png" alt="" class="category-item__rating">
+              <button class="category-item__btn-like">+</button>
+              <button class="category-item__btn-dislike">-</button>
+              <button class="category-item__btn-open">Открыть</button>
+            </div>
+          </section>
+          <section class="category-item">
+            <div class="category-item__head">
+              <img src="img/analytics.png" alt="" class="category-item__logo" width="50px" height="50px">
+              <h3 class="category-item__title">Интернет-аналитика</h3>
+              <p class="category-item__members">14732 / +162</p>
+            </div>
+            <div class="category-item__body">
+              <p class="category-item__desc">В канале собраны ссылки на первоисточники данных и материалы российский и зарубежных</p>
+            </div>
+            <div class="category-item__footer">
+              <img src="img/stars.png" alt="" class="category-item__rating">
+              <button class="category-item__btn-like">+</button>
+              <button class="category-item__btn-dislike">-</button>
+              <button class="category-item__btn-open">Открыть</button>
+            </div>
+          </section>
+          <section class="category-item">
+            <div class="category-item__head">
+              <img src="img/analytics.png" alt="" class="category-item__logo" width="50px" height="50px">
+              <h3 class="category-item__title">Интернет-аналитика</h3>
+              <p class="category-item__members">14732 / +162</p>
+            </div>
+            <div class="category-item__body">
+              <p class="category-item__desc">В канале собраны ссылки на первоисточники данных и материалы российский и зарубежных</p>
+            </div>
+            <div class="category-item__footer">
+              <img src="img/stars.png" alt="" class="category-item__rating">
+              <button class="category-item__btn-like">+</button>
+              <button class="category-item__btn-dislike">-</button>
+              <button class="category-item__btn-open">Открыть</button>
+            </div>
+          </section>
+        </div>
+        <div class="category__second-line">
+          <section class="category-item">
+            <div class="category-item__head">
+              <img src="img/analytics.png" alt="" class="category-item__logo" width="50px" height="50px">
+              <h3 class="category-item__title">Интернет-аналитика</h3>
+              <p class="category-item__members">14732 / +162</p>
+            </div>
+            <div class="category-item__body">
+              <p class="category-item__desc">В канале собраны ссылки на первоисточники данных и материалы российский и зарубежных</p>
+            </div>
+            <div class="category-item__footer">
+              <img src="img/stars.png" alt="" class="category-item__rating">
+              <button class="category-item__btn-like">+</button>
+              <button class="category-item__btn-dislike">-</button>
+              <button class="category-item__btn-open">Открыть</button>
+            </div>
+          </section>
+          <section class="category-item">
+            <div class="category-item__head">
+              <img src="img/analytics.png" alt="" class="category-item__logo" width="50px" height="50px">
+              <h3 class="category-item__title">Интернет-аналитика</h3>
+              <p class="category-item__members">14732 / +162</p>
+            </div>
+            <div class="category-item__body">
+              <p class="category-item__desc">В канале собраны ссылки на первоисточники данных и материалы российский и зарубежных</p>
+            </div>
+            <div class="category-item__footer">
+              <img src="img/stars.png" alt="" class="category-item__rating">
+              <button class="category-item__btn-like">+</button>
+              <button class="category-item__btn-dislike">-</button>
+              <button class="category-item__btn-open">Открыть</button>
+            </div>
+          </section>
+          <section class="category-item">
+            <div class="category-item__head">
+              <img src="img/analytics.png" alt="" class="category-item__logo" width="50px" height="50px">
+              <h3 class="category-item__title">Интернет-аналитика</h3>
+              <p class="category-item__members">14732 / +162</p>
+            </div>
+            <div class="category-item__body">
+              <p class="category-item__desc">В канале собраны ссылки на первоисточники данных и материалы российский и зарубежных</p>
+            </div>
+            <div class="category-item__footer">
+              <img src="img/stars.png" alt="" class="category-item__rating">
+              <button class="category-item__btn-like">+</button>
+              <button class="category-item__btn-dislike">-</button>
+              <button class="category-item__btn-open">Открыть</button>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+  </main>
   <script src="js/script.min.js"></script>
 </body>
 </html>
