@@ -1,17 +1,26 @@
+header {
+  border-bottom: 1px solid #f1f1f1;
+
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+
+  @media (min-width: 1200px) {
+    padding-bottom: 0;
+    margin-bottom: 100px;
+  }
+}
+
 .main-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
   width: 300px;
-  max-width: 1170px;
   margin: 0 auto;
 
-  margin-bottom: 20px;
-
-//  @media (min-width: 1200px) {
-//    width: 1170px;
-//  }
+  @media (min-width: 1200px) {
+    width: 1170px;
+  }
 }
 
 .main-nav__logo {
@@ -29,8 +38,48 @@
   background-size: cover;
 
   cursor: pointer;
+
+  @media (min-width: 1200px) {
+    display: none;
+  }
 }
 
 .main-nav__links {
   display: none;
+
+  @media (min-width: 1200px) {
+    display: block;
+
+    list-style-type: none;
+    padding: 0;
+
+    margin-top: 25px;
+  }
+}
+
+.main-nav__link {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.main-nav__link.username {
+  color: #60b8e5;
+}
+
+.main-nav__link.username__icon {
+  width: 10px;
+  height: 10px;
+  background-image: url(../img/down-arrow.svg);
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-nav__link.btn {
+  border: 1px solid #9ad2ef;
 }

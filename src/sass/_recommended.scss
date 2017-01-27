@@ -1,8 +1,15 @@
 .recommended {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
+
+  @media (min-width: 1200px) {
+    margin-bottom: 100px;
+  }
+}
+
+.recommended__desc {
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
 }
 
 .recommended__title {
@@ -11,15 +18,40 @@
   font-weight: 800;
   color: #3f3f3f;
 
-  margin-bottom: 45px;
+  margin-bottom: 40px;
+
+  @media (min-width: 1200px) {
+    font-size: 28px;
+    line-height: 42px;
+
+    margin-bottom: 40px;
+  }
 }
 
 .recommended__update {
   display: none;
 }
 
+.rec-items {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+
+  @media (min-width: 1200px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+}
+
 .rec-item {
+  width: 300px;
   margin-bottom: 50px;
+
+  @media (min-width: 1200px) {
+    margin-bottom: 0;
+  }
 }
 
 .rec-item:last-child {
