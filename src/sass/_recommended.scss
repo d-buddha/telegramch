@@ -81,7 +81,7 @@
   border: 2px solid #9be4aa;
   padding-left: 35px;
 
-  background: url(../img/thumbs-o-up.svg);
+  background: url(../img/thumbs-up.svg);
   background-size: 15px 15px;
   background-repeat: no-repeat;
   background-position: 13px 7px;
@@ -91,7 +91,7 @@
   border: 2px solid #ffe0e0;
   padding-left: 35px;
 
-  background: url(../img/thumbs-o-down.svg);
+  background: url(../img/thumbs-down.svg);
   background-size: 15px 15px;
   background-repeat: no-repeat;
   background-position: 13px 7px;
@@ -99,8 +99,10 @@
 
 .rec-item__open {
   border: 2px solid #9ad2ef;
-  background: url(../img/angle-up.svg);
-  background-size: 15px 15px;
+  background: url(../img/chevron-arrow-up.svg);
+  background-size: 10px 10px;
   background-repeat: no-repeat;
   background-position: center;
+
+  padding: 5px 20px;
 }

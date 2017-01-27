@@ -7,6 +7,8 @@
   max-width: 1170px;
   margin: 0 auto;
 
+  margin-bottom: 20px;
+
 //  @media (min-width: 1200px) {
 //    width: 1170px;
 //  }
@@ -16,15 +18,14 @@
   width: 152px;
   height: 33px;
   margin-top: 30px;
-  margin-bottom: 20px;
 }
 
 .main-nav__bars {
-  width: 30px;
-  height: 30px;
-  margin-top: 30px;
+  width: 25px;
+  height: 25px;
+  margin-top: 32px;
 
-  background-image: url(../img/bars.svg);
+  background-image: url(../img/reorder-option.svg);
   background-size: cover;
 
   cursor: pointer;

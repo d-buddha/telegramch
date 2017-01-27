@@ -16,14 +16,33 @@
   margin-bottom: 15px;
 }
 
-.greeting__desc {
-  font-size: 14px;
-  line-height: 21px;
+.greeting__desc--pc {
+  display: none;
+
+  font-size: 16px;
+  line-height: 24px;
   font-weight: 400;
 
   margin-bottom: 20px;
 }
 
+.greeting__desc--mobile {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  margin-bottom: 15px;
+}
+
 .greeting__search {
-  flex-grow: 1;
+  background: url(../img/magnifying-glass.svg);
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-position: 10px 7px;
+
+  color: #b5b5b5;
+  padding: 5px 5px 5px 30px;
+  border: 1px solid #9ad2ef;
+  width: 300px;
+  border-radius: 5px;
 }

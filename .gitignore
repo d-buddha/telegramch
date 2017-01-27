@@ -1,6 +1,5 @@
 node_modules/*
 build/*
-src/css/*
 DS_Store
 Thumbs.db
 .idea
@@ -9,3 +8,4 @@ Thumbs.db
 *.psd
 *.ai
 *.pdf
+*.css
