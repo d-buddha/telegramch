@@ -1,0 +1,49 @@
+.channel {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 20;
+  margin-top: -45vh;
+  margin-left: -285px;
+  width: 570px;
+  height: 95vh;
+
+  background: #fff;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.popup-close {
+  position: absolute;
+  top: 0;
+  right: -34px;
+  width: 22px;
+  height: 22px;
+  font-size: 0;
+  border: 0;
+  outline: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.popup-close::before,
+.popup-close::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  width: 30px;
+  height: 3px;
+  background-color: #d0d0d0;
+  border-radius: 1px;
+
+}
+
+.popup-close::before {
+  transform: rotate(45deg);
+}
+
+.popup-close::after {
+  transform: rotate(-45deg);
+}
