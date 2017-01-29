@@ -22,7 +22,9 @@
     line-height: 54px;
     font-weight: 800;
     text-align: center;
+    color: #505050;
 
+    margin-top: 0;
     margin-bottom: 35px;
   }
 }
@@ -34,8 +36,9 @@
     display: block;
     font-size: 18px;
     line-height: 27px;
-    font-weight: 800;
+    font-weight: 400;
     text-align: center;
+    color: #616161;
 
     width: 570px;
     margin: 0 auto;
@@ -74,4 +77,8 @@
     width: 515px;
     margin: 0 auto;
   }
+}
+
+.greeting__search:focus {
+  border: 2px solid #60b8e5;
 }

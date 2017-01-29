@@ -19,10 +19,28 @@ img {
   height: auto;
 }
 
+a:focus,
+button:focus,
+input:focus {
+  outline: none;
+}
+
+a {
+  color: #60b8e5;
+}
+
+a:hover {
+  color: #9ad2ef;
+}
+
+a:visited {
+  color: #663366;
+}
+
 .btn {
   cursor: pointer;
   color: #616161;
-  padding: 5px  15px;
+  padding: 5px 15px;
   border-image: none;
   background-color: #fff;
   border-radius: 5px;

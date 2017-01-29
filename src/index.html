@@ -7,7 +7,7 @@
   <meta name="description" content="TelegramCh — сервис для поиска лучших каналов Телеграм" />
   <meta name="keywords" content="телеграм, каналы, telegram, channels, поиск" />
   <meta name="author" content="Nikolay Puzyrev, Evgenij Krotov" />
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="shortcut icon" href="img/favicon.ico">
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/main.min.css">
   <!--[if IE]>
@@ -20,7 +20,7 @@
       <img src="img/logo.png" alt="TelegramCh" class="main-nav__logo" width="152px" height="33px">
       <div class="main-nav__bars"></div>
       <ul class="main-nav__links">
-        <li class="main-nav__link username">UserName <span class="main-nav__link username__icon"></span></li>
+        <li class="main-nav__link username">UserName</li>
         <li class="main-nav__link">Продвижение канала</li>
         <li class="main-nav__link">Разработка чат-ботов</li>
         <li class="main-nav__link btn">Добавить канал</li>
@@ -33,14 +33,13 @@
     <div class="container">
       <section class="greeting">
         <h1 class="greeting__title">TelegramCh — каталог лучших каналов Telegram</h1>
-        <p class="greeting__desc--pc">Попробуйти найти канал на интересующую Вас тему через поиск или посмотрите ТОП каналов по категориям ниже</p>
+        <p class="greeting__desc--pc">Попробуйте найти канал на интересующую Вас тему через поиск или посмотрите ТОП каналов по категориям ниже</p>
         <p class="greeting__desc--mobile">Поиск канала Telegram:</p>
         <input type="text" class="greeting__search" placeholder="Название или описание канала">
       </section>
 
       <section class="recommended">
         <h2 class="recommended__title">Рекомендованные Вам каналы*</h2>
-        <button class="recommended__update btn">Рекомендовать</button>
         <div class="rec-items">
           <section class="rec-item">
             <div class="rec-item__head">
@@ -199,7 +198,9 @@
             </div>
           </section>
         </div>
-        <a href="#" class="category__look-all">Посмотреть все каналы категории ></a>
+        <div class="category__footer">
+          <a href="#" class="category__look-all">Посмотреть все каналы категории ></a>
+        </div>
       </section>
 
       <section class="category">
@@ -309,7 +310,9 @@
             </div>
           </section>
         </div>
-        <a href="#" class="category__look-all">Посмотреть все каналы категории ></a>
+        <div class="category__footer">
+          <a href="#" class="category__look-all">Посмотреть все каналы категории ></a>
+        </div>
       </section>
 
     </div>
@@ -317,7 +320,7 @@
 
 
   <footer class="main-footer">
-    <p class="main-footer__info">TelegramCh &copy; All rights reserved</p>
+    <p class="main-footer__info">TelegramCh, 2017 &copy; Все права защищены.</p>
   </footer>
 
   <script src="js/script.min.js"></script>

@@ -12,13 +12,20 @@
   margin: 0;
 }
 
-.recommended__title {
-  font-size: 21px;
-  line-height: 30px;
-  font-weight: 800;
-  color: #3f3f3f;
+.recommended__desc a:visited {
+  color: #60b8e5;
+}
 
-  margin-bottom: 40px;
+.recommended__title {
+  display: inline-block;
+  position: relative;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 800;
+  color: #505050;
+
+  margin-bottom: 25px;
+  margin-top: 0;
 
   @media (min-width: 1200px) {
     font-size: 28px;
@@ -28,8 +35,56 @@
   }
 }
 
-.recommended__update {
+.recommended__title::before {
   display: none;
+
+  @media (min-width: 1200px) {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 4px;
+    right: -25px;
+    width: 2px;
+    height: 42px;
+    border-right: 2px solid right #e8e8e8;
+  }
+}
+
+.recommended__title::after {
+  display: none;
+
+  @media (min-width: 1200px) {
+    display: block;
+    position: absolute;
+    content: "Рекомендовать!";
+    top: 6px;
+    right: -197px;
+
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+
+    border: 2px solid #60b8e5;
+    padding: 5px 15px 5px 32px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    background: url(../img/flame.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+  }
+}
+
+.recommended__title:hover::after,
+.recommended__title:active::after,
+.recommended__title:focus::after{
+  border: 2px solid #2294ce;
+
+  background: url(../img/fire.svg);
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: 10px;
 }
 
 .rec-items {
@@ -82,8 +137,6 @@
 }
 
 .rec-item__members {
-  flex-shrink: 0;
-
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -110,7 +163,7 @@
 
 
 .rec-item__like {
-  border: 2px solid #9be4aa;
+  border: 1px solid #9ad2ef;
   padding-left: 35px;
 
   background: url(../img/thumbs-up.svg);
@@ -119,14 +172,48 @@
   background-position: 13px 7px;
 }
 
+.rec-item__like:hover {
+  padding: 4px 14px 4px 34px;
+  background-position: 12px 6px;
+  border: 2px solid #2ea747;
+}
+
+.rec-item__like:focus,
+.rec-item__like:active {
+  padding: 4px 14px 4px 34px;
+  border: 2px solid #2ea747;
+
+  background: url(../img/thumbs-up-silhouette.svg);
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: 12px 6px;
+}
+
 .rec-item__dislike {
-  border: 2px solid #ffe0e0;
-  padding-left: 35px;
+  border: 1px solid #9ad2ef;
+  padding: 5px 15px 5px 35px;
 
   background: url(../img/thumbs-down.svg);
   background-size: 15px 15px;
   background-repeat: no-repeat;
   background-position: 13px 7px;
+}
+
+.rec-item__dislike:hover {
+  padding: 4px 14px 4px 34px;
+  background-position: 12px 6px;
+  border: 2px solid #ff6666;
+}
+
+.rec-item__dislike:active,
+.rec-item__dislike:focus {
+  padding: 4px 14px 4px 34px;
+  border: 2px solid #ff6666;
+
+  background: url(../img/thumbs-down-silhouette.svg);
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position: 12px 6px;
 }
 
 .rec-item__open {
@@ -136,5 +223,15 @@
   background-repeat: no-repeat;
   background-position: center;
 
-  padding: 5px 20px;
+  padding: 4px 20px;
+}
+
+.rec-item__open:hover {
+  border: 2px solid #60b8e5;
+  background: url(../img/chevron-arrow-up-active.svg);
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  padding: 4px 20px;
 }
