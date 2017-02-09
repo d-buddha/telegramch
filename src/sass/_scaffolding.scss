@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic');
 
 body {
+  position: relative;
   font-size: 14px;
   line-height: 24px;
   font-family: "PT Sans", sans-serif;
@@ -35,6 +36,11 @@ a:hover {
 
 a:visited {
   color: #663366;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
 }
 
 .btn {
