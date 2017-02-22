@@ -1,9 +1,8 @@
 # TelegramCh
 
-running:
+It is prototype of frontend for the catalog of Telegram channels. If you want to start developing backend for this project you can write me to the address: nikolay@pzrv.ru.
 
-npm install
-
-gulp build
-
+Running:<br>
+npm install<br>
+gulp build<br>
 gulp
